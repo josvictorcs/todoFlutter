@@ -75,7 +75,7 @@ class _HomePageState extends State<HomePage>{
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Tarefas Médicas"),
+        title: Text("--Tarefas Médicas--"),
         actions: [
           IconButton(
             icon: Icon(_dark ? Icons.dark_mode: Icons.light_mode),
